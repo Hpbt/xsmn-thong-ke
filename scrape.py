@@ -74,10 +74,10 @@ def load():
 def save(data, meta):
     for slug, rows in data.items():
         with open(os.path.join(DATA, f"{slug}.csv"), "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=["date"] + PRIZES)
+            w = csv.DictWriter(f, fieldnames=["date"] + PRIZES, lineterminator="\n")
             w.writeheader()
             w.writerows(rows[k] for k in sorted(rows))
-    with open(os.path.join(DATA, "stations.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(DATA, "stations.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(dict(sorted(meta.items())), f, ensure_ascii=False, indent=1)
 
 
