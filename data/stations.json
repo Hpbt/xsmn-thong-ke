@@ -1,0 +1,65 @@
+{
+ "an-giang": {
+  "name": "An Giang"
+ },
+ "bac-lieu": {
+  "name": "Bạc Liêu"
+ },
+ "ben-tre": {
+  "name": "Bến Tre"
+ },
+ "binh-duong": {
+  "name": "Bình Dương"
+ },
+ "binh-phuoc": {
+  "name": "Bình Phước"
+ },
+ "binh-thuan": {
+  "name": "Bình Thuận"
+ },
+ "ca-mau": {
+  "name": "Cà Mau"
+ },
+ "can-tho": {
+  "name": "Cần Thơ"
+ },
+ "da-lat": {
+  "name": "Đà Lạt"
+ },
+ "dong-nai": {
+  "name": "Đồng Nai"
+ },
+ "dong-thap": {
+  "name": "Đồng Tháp"
+ },
+ "hau-giang": {
+  "name": "Hậu Giang"
+ },
+ "kien-giang": {
+  "name": "Kiên Giang"
+ },
+ "long-an": {
+  "name": "Long An"
+ },
+ "soc-trang": {
+  "name": "Sóc Trăng"
+ },
+ "tay-ninh": {
+  "name": "Tây Ninh"
+ },
+ "tien-giang": {
+  "name": "Tiền Giang"
+ },
+ "tp-hcm": {
+  "name": "TP. HCM"
+ },
+ "tra-vinh": {
+  "name": "Trà Vinh"
+ },
+ "vinh-long": {
+  "name": "Vĩnh Long"
+ },
+ "vung-tau": {
+  "name": "Vũng Tàu"
+ }
+}
